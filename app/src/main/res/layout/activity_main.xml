@@ -20,13 +20,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:text="Team A Score"
-
-
-
-
+                android:textColor="#616161"
                 android:fontFamily="sans-serif-medium"
                 android:layout_gravity="center_horizontal"
                 />
@@ -36,6 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:textColor="#000000"
                 android:textSize="56dp"
                 android:layout_gravity="center"
                 android:fontFamily="sans-serif-light" />
@@ -92,7 +90,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-medium"
+                android:textColor="#616161"
+                android:fontFamily="sans-serif-medium"
                 android:text="Team B Score"
                 android:textStyle="bold"
                 android:textSize="14dp"
@@ -105,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:text="0"
                 android:textSize="56dp"
+                android:textColor="#000000"
                 android:layout_gravity="center"
                 android:fontFamily="sans-serif-light"/>
 
