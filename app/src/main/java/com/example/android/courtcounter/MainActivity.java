@@ -48,9 +48,7 @@ public class MainActivity extends AppCompatActivity {
     public void addOneButton(View view) {
         scoreTeamA = scoreTeamA + 1;
         displayScoreA(scoreTeamA);
-
-
-/**
+    /**
  * this methods displays the Team B score
  */
     }
@@ -96,5 +94,6 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamA=0;
         displayScoreB(scoreTeamB);
         displayScoreA(scoreTeamA);
+
     }
 }
